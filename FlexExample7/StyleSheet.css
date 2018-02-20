@@ -1,0 +1,36 @@
+﻿.contents{
+    display:flex;
+    flex-direction:column;
+    width: 1000px;
+    margin: auto;
+}
+.one{
+    display:flex;
+    flex-direction:row;
+   flex: 1;
+   background-color:aliceblue;
+}
+img{
+    height: 100px;
+    margin: 8px;
+}
+header,
+footer{
+    background-color:antiquewhite;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.aside {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+h1{
+    margin-bottom:0px;
+}
+p {
+    margin-top: 3px;
+}
